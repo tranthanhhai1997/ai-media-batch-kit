@@ -1,12 +1,13 @@
 {
   "name": "ai-media-batch-kit",
   "version": "0.1.0",
-  "description": "Reference code + playbook for batch image/video generation via logged-in Chrome profiles (Google Flow/Veo 3, Muse, ChatGPT, Gemini, Grok) over CDP. Zero dependencies.",
+  "description": "Reference code + playbook for batch image/video generation via logged-in Chrome profiles (Google Flow/Veo 3, Muse, ChatGPT, Gemini, Grok) over CDP, plus free/cheap TTS voices (Edge, Gemini TTS, ai33) with Vietnamese text normalization, multi-voice dubbing and subtitles. Zero dependencies.",
   "type": "commonjs",
   "engines": { "node": ">=22" },
   "scripts": {
     "check": "node scripts/check.js",
-    "test": "node test/queue.test.js && node test/page-scripts.test.js && node test/profile-lock.test.js"
+    "test": "node test/queue.test.js && node test/page-scripts.test.js && node test/profile-lock.test.js && node test/voice.test.js",
+    "test:voice": "node test/voice.test.js"
   },
   "author": "Hai Tran (https://github.com/tranthanhhai1997)",
   "license": "MIT"

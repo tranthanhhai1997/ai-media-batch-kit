@@ -1,0 +1,14 @@
+# Suggested versions (10/2026). Install only what you use. Python 3.10–3.12.
+# Install torch FIRST from https://pytorch.org with the CUDA build that matches your GPU driver.
+numpy>=1.24
+soundfile>=0.12
+
+# omnivoice_clone/  (weights CC-BY-NC: NON-COMMERCIAL ONLY)
+omnivoice>=0.2.1
+faster-whisper>=1.0      # optional: transcribe the reference sample (prepare_reference --asr small)
+demucs>=4.0.1            # optional: remove background music from the sample (prepare_reference --demucs)
+
+# kokoro_tts.py  (Apache-2.0, no Vietnamese)
+kokoro>=0.9
+
+# System: ffmpeg on PATH (or FFMPEG_PATH). Kokoro needs espeak-ng for some languages.
