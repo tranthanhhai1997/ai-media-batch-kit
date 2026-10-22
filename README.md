@@ -94,6 +94,10 @@ Tự động hoá giao diện web của Google/OpenAI/Meta/xAI có thể trái �
 
 Repo không chứa cookie, token hay dữ liệu tài khoản nào.
 
+## Liên hệ
+
+Hỗ trợ / tư vấn tích hợp: **tranthanhhai.it1997@gmail.com**
+
 ## Giấy phép
 
 [MIT](LICENSE) © 2026 Hai Tran. Dùng, sửa, phân phối tự do (kể cả thương mại), miễn giữ lại thông báo bản quyền.
