@@ -1,0 +1,9 @@
+{
+  "aspect": "16:9",
+  "video": true,
+  "scenes": [
+    { "id": "s01", "prompt": "Cinematic wide shot of a misty rice terrace at sunrise, a farmer in a conical hat walking on the ridge", "motion": "Slow push-in, mist drifting, the farmer keeps walking" },
+    { "id": "s02", "prompt": "Close-up of hands planting rice seedlings in shallow water, warm morning light", "motion": "Hands press seedlings into the mud, water ripples" },
+    { "id": "s03", "prompt": "Aerial view of the terraces turning golden at harvest time, small figures cutting rice", "motion": "Drone glides forward over the golden terraces" }
+  ]
+}
